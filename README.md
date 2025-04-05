@@ -5,21 +5,21 @@ A minimal full-stack Todo application with separate **Backend** and **Frontend**
 ### 🛠 Tech Stack
 
 **Frontend**  
-- Framework: React (or your choice)
+- Framework: React 
 - Styling: CSS / Tailwind / Bootstrap
 - API Communication: Axios / Fetch
 
 **Backend**  
-- Framework: Node.js with Express (or your choice)
-- Database: MongoDB / PostgreSQL / SQLite
+- Framework: Node.js with Express 
+- Database: MongoDB 
 - REST API: CRUD operations
 
 ---
 
 ## 📂 Repositories
 
-- 🔗 **Frontend**: [GitHub Link to Frontend Repo](#)
-- 🔗 **Backend**: [GitHub Link to Backend Repo](#)
+- 🔗 **Frontend**: git@github.com:vishesh-tr/Todo-MERN.git
+- 🔗 **Backend**: git@github.com:vishesh-tr/Todo-MERN.git
 
 ---
 
@@ -29,10 +29,10 @@ A minimal full-stack Todo application with separate **Backend** and **Frontend**
 
 ```bash
 # Clone Frontend
-git clone https://github.com/your-username/todo-frontend.git
+git clone https://github.com/vishesh-tr/Todo-MERN.git
 
 # Clone Backend
-git clone https://github.com/your-username/todo-backend.git
+git clone https://github.com/vishesh-tr/Todo-MERN.git
 ```
 
 ### 2. Setup Backend
@@ -50,7 +50,7 @@ npm run dev
 cd todo-frontend
 npm install
 # Create .env file and add backend API URL
-npm start
+npm run dev 
 ```
 
 ---
@@ -68,10 +68,10 @@ npm start
 ## 📦 API Endpoints (Backend)
 
 ```
-GET    /api/todos         -> Get all todos  
-POST   /api/todos         -> Create a new todo  
-PUT    /api/todos/:id     -> Update a todo  
-DELETE /api/todos/:id     -> Delete a todo  
+GET    /api/todos         -> http://localhost:4001/todo/fetch 
+POST   /api/todos         -> http://localhost:4001/todo/create  
+PUT    /api/todos/:id     -> http://localhost:4001/todo/update/${id} 
+DELETE /api/todos/:id     -> http://localhost:4001/todo/delete/${id}
 ```
 
 ---
