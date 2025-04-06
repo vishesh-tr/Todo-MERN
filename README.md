@@ -78,7 +78,7 @@ DELETE /api/todos/:id     -> http://localhost:4001/todo/delete/${id}
 
 ## 📸 Screenshots
 
-_Add screenshots of the UI here if available._
+(<Screenshot (80).png>)
 
 ---
 
